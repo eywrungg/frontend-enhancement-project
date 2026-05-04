@@ -1,16 +1,65 @@
-# React + Vite
+# Frontend Enhancement Using Git Branching
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a frontend enhancement activity built with React and Vite. The original website was improved by redesigning the user interface, adding interactive components, improving responsiveness, and organizing the experience into a polished Japan travel landing page called **Torii**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The work was completed on a feature branch and prepared for submission through a pull request workflow.
 
-## React Compiler
+## Features Added
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Redesigned the website into a Japan travel themed interface.
+- Added a full-screen hero section with background imagery, overlay, animated text, and a smooth scroll call-to-action.
+- Improved navigation with a floating glass-style navbar, scroll state, mobile hamburger menu, and dark mode toggle.
+- Added a responsive destinations carousel with arrows, draggable scrolling, hover effects, and dot navigation.
+- Enhanced the About section with animated content, travel statistics, marquee text, and journal-style cards.
+- Added a Contact section with form validation, submit feedback, and office/contact information.
+- Added sidebar social links and a name tag with responsive visibility.
+- Improved mobile responsiveness for smaller screen sizes.
+- Added animations and transitions using Framer Motion.
 
-## Expanding the ESLint configuration
+## Tools Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- Framer Motion
+- Git and GitHub
+
+## Challenges Encountered
+
+- Adjusting the layout so the design stayed responsive on desktop, tablet, and mobile screens.
+- Making the sidebar social links and name tag display correctly without blocking mobile content.
+- Keeping the dark mode and light mode colors readable across different sections.
+- Managing Git branches, commits, pushes, and pull request updates correctly.
+
+## How to Run the Project
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+## Git Workflow
+
+The enhancement was developed using a separate feature branch:
+
+```bash
+feature/alcebar-frontend-enhancement
+```
+
+The branch was pushed to GitHub and used for a pull request into the original repository's `main` branch.
